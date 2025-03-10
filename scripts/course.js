@@ -1,34 +1,30 @@
 const courses = [
-    { code: "WDD130", name: "Web Fundamentals", credits: 3, category: "WDD", completed: true },
-    { code: "CSE110", name: "Intro to Programming", credits: 4, category: "CSE", completed: false },
-    { code: "WDD231", name: "Advanced Web Dev", credits: 3, category: "WDD", completed: false }
+    { code: "CSE 110", category: "CSE" },
+    { code: "WDD 130", category: "WDD" },
+    { code: "CSE 111", category: "CSE" },
+    { code: "CSE 210", category: "CSE" },
+    { code: "WDD 131", category: "WDD" },
+    { code: "WDD 231", category: "WDD" }
 ];
 
-function displayCourses(filtered = "all") {
-    let courseContainer = document.getElementById("courses");
-    courseContainer.innerHTML = "";
-    let totalCredits = 0;
+function displayCourses(filter) {
+    const coursesContainer = document.getElementById("courses");
+    coursesContainer.innerHTML = "";
 
-    courses
-        .filter(course => filtered === "all" || course.category === filtered)
-        .forEach(course => {
-            let courseDiv = document.createElement("div");
-            courseDiv.classList.add("course");
-            if (course.completed) courseDiv.style.background = "#c8e6c9"; // Green for completed courses
+    const filteredCourses = courses.filter(course => filter === "all" || course.category === filter);
 
-            courseDiv.innerHTML = `
-                <h3>${course.code}: ${course.name}</h3>
-                <p>Credits: ${course.credits}</p>
-            `;
-            courseContainer.appendChild(courseDiv);
-            totalCredits += course.credits;
-        });
-
-    document.getElementById("totalCredits").textContent = totalCredits;
+    filteredCourses.forEach(course => {
+        const div = document.createElement("div");
+        div.className = "course";
+        div.textContent = course.code;
+        coursesContainer.appendChild(div);
+    });
 }
 
 function filterCourses(category) {
     displayCourses(category);
 }
 
-document.addEventListener("DOMContentLoaded", () => displayCourses());
+document.addEventListener("DOMContentLoaded", function () {
+    displayCourses("all");
+});
