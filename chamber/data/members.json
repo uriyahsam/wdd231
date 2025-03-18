@@ -1,0 +1,26 @@
+[
+    {
+        "name": "ABC Corporation",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://abccorp.com",
+        "image": "abc.jpg",
+        "membership": 3
+    },
+    {
+        "name": "XYZ Enterprises",
+        "address": "456 Elm St, Townsville",
+        "phone": "(987) 654-3210",
+        "website": "https://xyzenterprises.com",
+        "image": "xyz.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Tech Innovators",
+        "address": "789 Oak St, Metropolis",
+        "phone": "(555) 123-4567",
+        "website": "https://techinnovators.com",
+        "image": "tech.jpg",
+        "membership": 1
+    }
+]
