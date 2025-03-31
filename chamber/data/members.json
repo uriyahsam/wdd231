@@ -22,5 +22,21 @@
         "website": "https://techinnovators.com",
         "image": "tech.jpg",
         "membership": 1
+    },
+    {
+        "name": "Global Solutions",
+        "address": "1011 Business Ave, Springfield",
+        "phone": "(321) 654-0987",
+        "website": "https://globalsolutions.com",
+        "image": "global.jpg",
+        "membership": 2
+    },
+    {
+        "name": "NextGen Technologies",
+        "address": "404 Future Blvd, Innovation City",
+        "phone": "(789) 123-4560",
+        "website": "https://nextgentech.com",
+        "image": "nextgen.jpg",
+        "membership": 3
     }
 ]
