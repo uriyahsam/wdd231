@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Independence Arch",
+        "address": "Independence Square, Accra, Ghana",
+        "description": "A historic monument symbolizing Ghana's independence from colonial rule.",
+        "image": "images/independence-arch.webp"
+    },
+    {
+        "name": "Kwame Nkrumah Mausoleum",
+        "address": "High St, Accra, Ghana",
+        "description": "The final resting place of Ghana’s first president, Kwame Nkrumah.",
+        "image": "images/nkrumah-mausoleum.webp"
+    },
+    {
+        "name": "Labadi Beach",
+        "address": "Labadi, Accra, Ghana",
+        "description": "One of Accra’s most popular beaches, known for its lively atmosphere and entertainment.",
+        "image": "images/labadi-beach.webp"
+    },
+    {
+        "name": "Jamestown Lighthouse",
+        "address": "Jamestown, Accra, Ghana",
+        "description": "A colonial-era lighthouse offering panoramic views of the city and coastline.",
+        "image": "images/jamestown-lighthouse.webp"
+    },
+    {
+        "name": "W.E.B. DuBois Center",
+        "address": "Cantonments, Accra, Ghana",
+        "description": "A museum and research center dedicated to the life and work of W.E.B. DuBois.",
+        "image": "images/dubois-center.webp"
+    },
+    {
+        "name": "Makola Market",
+        "address": "Kojo Thompson Rd, Accra, Ghana",
+        "description": "A bustling market offering everything from textiles to fresh produce.",
+        "image": "images/makola-market.webp"
+    },
+    {
+        "name": "Accra Mall",
+        "address": "Tetteh Quarshie Interchange, Accra, Ghana",
+        "description": "A modern shopping mall with international brands and restaurants.",
+        "image": "images/accra-mall.webp"
+    },
+    {
+        "name": "Artists Alliance Gallery",
+        "address": "La Road, Accra, Ghana",
+        "description": "A contemporary art gallery showcasing Ghanaian and African artists.",
+        "image": "images/artists-alliance.webp"
+    }
+]
