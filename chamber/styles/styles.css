@@ -456,7 +456,6 @@ footer {
 }
 
 
-
 /* DISCOVER PAGE STYLES */
 .discover-page main {
     max-width: 1200px;
@@ -464,17 +463,42 @@ footer {
     padding: 20px;
     display: grid;
     gap: 20px;
-    /* Use auto-fit to fill the available space and ensure cards remain centered */
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    justify-items: center;
+    justify-content: center; /* Centers the grid */
+    margin-left: auto; /* Fix left alignment issue */
+    margin-right: auto; /* Fix left alignment issue */
 }
 
-/* For small screens, fallback to flex column */
+/* Grid Layout for Large Screens */
+@media (min-width: 1025px) {
+    .discover-page main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "item1 item2 item3 item4"
+            "item5 item6 item7 item8";
+        justify-items: center; /* Centers items inside the grid */
+    }
+}
+
+/* Grid Layout for Medium Screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .discover-page main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8";
+        justify-items: center;
+    }
+}
+
+/* Grid Layout for Small Screens */
 @media (max-width: 640px) {
     .discover-page main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center; /* Ensures content is centered */
     }
 }
 
@@ -487,8 +511,10 @@ footer {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    width: 100%;
-    max-width: 280px; /* Prevents stretching on wide screens */
+    width: 100%; /* Ensures consistent card width */
+    max-width: 280px; /* Prevents stretching on large screens */
+    margin-left: auto; /* Centers cards horizontally */
+    margin-right: auto; /* Centers cards horizontally */
 }
 
 .discover-card:hover {
@@ -503,7 +529,7 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover Effect for desktop (not on mobile) */
+/* Hover Effect (not for mobile) */
 @media (min-width: 641px) {
     .discover-card:hover img {
         transform: scale(1.1);
