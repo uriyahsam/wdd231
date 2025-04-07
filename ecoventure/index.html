@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="EcoVenture – Explore sustainable travel destinations and adventure with a minimal environmental impact."/>
+  <meta property="og:title" content="EcoVenture – Sustainable Travel & Adventure" />
+  <meta property="og:description" content="Discover eco-friendly destinations, tips, and community travel experiences that preserve the planet." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>EcoVenture | Home</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">EcoVenture</h1>
+      <button id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+      <ul id="nav-menu" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Explore. Respect. Sustain.</h2>
+        <p>Discover the joy of eco-friendly travel, explore unspoiled destinations, and make a difference for future generations.</p>
+        <a href="destinations.html" class="btn">Explore Destinations</a>
+      </div>
+    </section>
+
+    <!-- Mission / Why EcoVenture -->
+    <section class="about">
+      <div class="container">
+        <h3>Why EcoVenture?</h3>
+        <p>EcoVenture is more than a travel guide. We're a movement of conscious adventurers who believe travel can uplift communities, preserve natural beauty, and reduce our footprint. Whether you’re looking for carbon-neutral adventures or tips to travel mindfully, EcoVenture is your go-to resource.</p>
+      </div>
+    </section>
+
+    <!-- Popular Activities -->
+    <section class="activities">
+      <div class="container">
+        <h3>Popular Eco Activities</h3>
+        <div class="activity-grid">
+          <div class="activity-card">
+            <img src="images/hiking.jpg" alt="Eco hiking trail" loading="lazy">
+            <h4>Eco Hiking</h4>
+            <p>Leave no trace as you hike through breathtaking landscapes.</p>
+          </div>
+          <div class="activity-card">
+            <img src="images/biking.jpg" alt="Sustainable biking" loading="lazy">
+            <h4>Eco Biking</h4>
+            <p>Explore sustainable bike tours that support local communities.</p>
+          </div>
+          <div class="activity-card">
+            <img src="images/safari.jpg" alt="Wildlife safari" loading="lazy">
+            <h4>Wildlife Safaris</h4>
+            <p>Participate in conservation-friendly wildlife experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Destinations (JS Injected) -->
+    <section class="featured" id="featured-destinations">
+      <div class="container">
+        <h3>Featured Destinations</h3>
+        <div class="card-grid" id="destination-cards">
+          <!-- Populated via main.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 EcoVenture | <a href="attributions.html">Attributions</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

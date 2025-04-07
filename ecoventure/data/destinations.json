@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Monteverde Cloud Forest",
+    "country": "Costa Rica",
+    "description": "A lush biodiverse reserve known for its sustainable tourism and zip-lining through misty treetops.",
+    "image": "images/monteverde.jpg"
+  },
+  {
+    "name": "Palawan",
+    "country": "Philippines",
+    "description": "Island paradise with crystal lagoons, eco-resorts, and marine sanctuaries.",
+    "image": "images/palawan.jpg"
+  },
+  {
+    "name": "Tasman National Park",
+    "country": "Australia",
+    "description": "Coastal wilderness with dramatic cliffs, sustainable hikes, and diverse wildlife.",
+    "image": "images/tasman.jpg"
+  },
+  {
+    "name": "Bwindi Impenetrable Forest",
+    "country": "Uganda",
+    "description": "Home of gorilla trekking with strict conservation practices and local engagement.",
+    "image": "images/bwindi.jpg"
+  },
+  {
+    "name": "Ladakh",
+    "country": "India",
+    "description": "High-altitude desert with eco-villages and responsible trekking in the Himalayas.",
+    "image": "images/ladakh.jpg"
+  },
+  {
+    "name": "The Azores",
+    "country": "Portugal",
+    "description": "Volcanic islands in the Atlantic with whale watching, green energy, and sustainability.",
+    "image": "images/azores.jpg"
+  },
+  {
+    "name": "Sundarbans",
+    "country": "Bangladesh",
+    "description": "Mangrove forest with tiger reserves and UNESCO biosphere conservation.",
+    "image": "images/sundarbans.jpg"
+  },
+  {
+    "name": "Isle of Eigg",
+    "country": "Scotland",
+    "description": "Small island powered by renewables and run by a community collective.",
+    "image": "images/eigg.jpg"
+  },
+  {
+    "name": "Torres del Paine",
+    "country": "Chile",
+    "description": "Famed for its eco-camps, hiking, and glacial vistas in Patagonia.",
+    "image": "images/torres.jpg"
+  },
+  {
+    "name": "Galápagos Islands",
+    "country": "Ecuador",
+    "description": "Protected archipelago with strict tourism laws and iconic biodiversity.",
+    "image": "images/galapagos.jpg"
+  },
+  {
+    "name": "Lofoten Islands",
+    "country": "Norway",
+    "description": "Fishing villages, fjords, and renewable energy in the Arctic Circle.",
+    "image": "images/lofoten.jpg"
+  },
+  {
+    "name": "Great Bear Rainforest",
+    "country": "Canada",
+    "description": "Remote rainforest with Indigenous stewardship and eco-lodging.",
+    "image": "images/greatbear.jpg"
+  },
+  {
+    "name": "Taman Negara",
+    "country": "Malaysia",
+    "description": "Oldest rainforest in the world, offering jungle trekking and canopy walks.",
+    "image": "images/taman.jpg"
+  },
+  {
+    "name": "Tulum",
+    "country": "Mexico",
+    "description": "Eco-hotels, cenotes, and Mayan ruins with a focus on low-impact tourism.",
+    "image": "images/tulum.jpg"
+  },
+  {
+    "name": "Arenal Volcano Region",
+    "country": "Costa Rica",
+    "description": "Adventure hub with geothermal resorts and eco-certified lodges.",
+    "image": "images/arenal.jpg"
+  }
+]

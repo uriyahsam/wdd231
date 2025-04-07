@@ -1,0 +1,39 @@
+<!-- thankyou.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for joining EcoVenture!" />
+  <link rel="icon" href="images/favicon.png" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Thank You | EcoVenture</title>
+</head>
+<body>
+  <header>
+    <h1>Thank You!</h1>
+  </header>
+
+  <main>
+    <p>Thank you for joining the EcoVenture movement. Your details have been recorded:</p>
+    <ul id="user-data">
+      <!-- JavaScript fills in submitted form data -->
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EcoVenture | <a href="attributions.html">Attributions</a></p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const dataList = document.getElementById("user-data");
+
+    for (const [key, value] of params) {
+      const li = document.createElement("li");
+      li.textContent = `${key}: ${value}`;
+      dataList.appendChild(li);
+    }
+  </script>
+</body>
+</html>

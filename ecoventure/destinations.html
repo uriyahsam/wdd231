@@ -1,0 +1,54 @@
+<!-- destinations.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore eco-friendly destinations around the globe with EcoVenture – Sustainable Travel & Adventure." />
+  <meta property="og:title" content="Eco Destinations | EcoVenture" />
+  <meta property="og:description" content="Discover 15 eco-travel destinations curated for sustainable adventurers." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="images/favicon.png" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Eco Destinations | EcoVenture</title>
+</head>
+<body>
+  <header>
+    <h1>Eco Destinations</h1>
+    <nav>
+      <button id="menu-toggle">☰</button>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html" class="active">Destinations</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Explore Eco-Friendly Travel Spots</h2>
+      <p>Each destination featured below supports sustainability, conservation, and local communities.</p>
+    </section>
+
+    <section id="destinations-grid" class="grid-container">
+      <!-- Cards loaded via JavaScript -->
+    </section>
+  </main>
+
+  <!-- Modal Dialog -->
+  <dialog id="destination-modal">
+    <div class="modal-content">
+      <button id="modal-close">✖</button>
+      <div id="modal-details"></div>
+    </div>
+  </dialog>
+
+  <footer>
+    <p>&copy; 2025 EcoVenture | <a href="attributions.html">Attributions</a></p>
+  </footer>
+
+  <script type="module" src="scripts/destinations.js"></script>
+</body>
+</html>
